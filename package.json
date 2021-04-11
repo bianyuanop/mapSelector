@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@anzerr/bmp.util": "^1.0.11",
+    "bmp-js": "^0.1.0",
+    "canvas": "^2.7.0",
+    "ffi-napi": "^4.0.3",
+    "jimp": "^0.16.1",
+    "ref-napi": "^3.0.2"
+  },
+  "devDependencies": {
+    "@ericandrewlewis/bitmap": "github:ericandrewlewis/bitmap-js",
+    "electron": "^12.0.2"
+  },
+  "name": "mapselector",
+  "version": "1.0.0",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bianyuanop/mapSelector.git"
+  },
+  "author": "Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bianyuanop/mapSelector/issues"
+  },
+  "homepage": "https://github.com/bianyuanop/mapSelector#readme",
+  "description": ""
+}

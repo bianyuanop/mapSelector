@@ -6,23 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+html, body {
+    overflow: hidden;
+}
 .header {
-
+    height: 7%;
+    background-color: aquamarine;
 }
 .container {
-
+    width: 1200px;
+    height: 800px;
 }
 .top {
-
+    display: inline-block;
 }
 .top-right {
-
+    display: inline-block;
 }
 .map-container {
-
+    display: inline-block;
+    background-color: black;
+    width: 512px;
+    height: 512px;
+}
+.maplist {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
 }
 .map-container img {
-
+    width: 512px;
+    height: 512px;
+}
+.center {
+    height: 80%;
+}
+.bottom {
+    height: 8%;
+    background-color: aqua;
 }
     </style>
 </head>
@@ -32,16 +53,21 @@
             <div class="top">TOP</div>
             <div class="top-right">TOP RIGHT</div>
         </div>
-        <div class="maplist left">
-            <ul>
-                <li>Map1</li>
-                <li>Map2</li>
-                <li>Map3</li>
-            </ul>
+        <div class="center">
+            <div class="maplist left">
+                <ul>
+                    <li>Map1</li>
+                    <li>Map2</li>
+                    <li>Map3</li>
+                </ul>
+            </div>
+            <div class="map-container">
+                <img src="" alt="Example.map">
+            </div>
         </div>
-        <div class="map-container">
-            <img src="" alt="Example.map">
-        </div>
+        <div class="bottom">BOTTOM</div>
     </div>
+    <script src="lib/mapUlti.js"></script>
+    <script src="driver.js"></script>
 </body>
 </html>
