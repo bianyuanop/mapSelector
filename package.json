@@ -5,6 +5,7 @@
     "canvas": "^2.7.0",
     "ffi-napi": "^4.0.3",
     "jimp": "^0.16.1",
+    "package.json": "^2.0.1",
     "ref-napi": "^3.0.2"
   },
   "devDependencies": {
